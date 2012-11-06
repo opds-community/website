@@ -1,0 +1,26 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* Navigation */
+.nav {
+  margin: 30px 0;
+}
+
+.homepage_illustration {
+  margin-bottom: 30px;
+  text-align: center;
+}
+      
+.center {
+  text-align: center;
+}
+      
+footer {
+  margin-top: 30px;
+}
+      
+h2 {
+  font-size: 26px;
+}

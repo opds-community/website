@@ -1,18 +1,13 @@
+/* Layout */
+.nav {
+  margin: 30px 0;
+}
+
 body {
   padding-top: 20px;
   padding-bottom: 40px;
 }
 
-/* Navigation */
-.nav {
-  margin: 30px 0;
-}
-
-.homepage_illustration {
-  margin-bottom: 30px;
-  text-align: center;
-}
-      
 .center {
   text-align: center;
 }
@@ -20,7 +15,21 @@ body {
 footer {
   margin-top: 30px;
 }
+
+/* Horizontal gutters */
+.append1 {
+  margin-bottom: 30px;
+}
+
+.append2 {
+  margin-bottom: 60px;
+}
+
+.append3 {
+  margin-bottom: 90px;
+}
       
+/* Typography */      
 h2 {
   font-size: 26px;
 }

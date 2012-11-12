@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OPDS Catalog</title>
+    <meta name="description" content="An easy way to browse, search and acquire content from a large collection." /> 
+    
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+    
+    <!-- Site CSS -->
+    <link href="css/opds.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      <!-- Navigation -->
+      
+      <div class="row-fluid hidden-phone">
+        <a href="index.html"><img src="img/logo.png" alt="Open Publication Distribution System" title="Open Publication Distribution System" /></a>
+        <ul class="nav nav-pills pull-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="presentation.html">Presentation</a></li>
+          <li class="active"><a href="learn.html">Learn</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Create <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://opds-spec.org/specs/opds-catalog-1-1-20110627/">Specification</a></li>
+              <li><a href="http://opds-validator.appspot.com/">Validate a catalog</a></li>
+              <li><a href="http://feedbooks.github.com/opds-test-catalog/">Test a client</a></li>
+              <li><a href="http://github.com/search?q=OPDS&amp;start_value=1&amp;type=Repositories">Search on GitHub</a></li>
+            </ul>
+          </li>
+          <li><a href="http://groups.google.com/group/openpub">Discussions</a></li>
+        </ul>
+      </div>
+      
+      <div class="row-fluid visible-phone center">
+        <a href="index.html"><img src="img/logo.png" alt="Open Publication Distribution System" title="Open Publication Distribution System" /></a>
+      </div>
+      
+      <hr class="hidden-phone" />
+      
+      <!-- Presentation -->
+      <div class="row-fluid append1">
+        <h1>Catalog</h1>
+        <hr />
+        <p class="lead">An easy way to browse, search and acquire content from a large collection. Catalogs are designed to be uniquely curated by their creators, with deep navigation based on links and faceted browsing.</p>
+        <p class="lead">Catalogs are separated in two different kind of collections:</p>
+      </div>
+
+      <!-- Main content -->
+      <div class="row-fluid append1">
+        
+        <div class="featurette append1">
+          <img class="featurette-image pull-right" src="img/catalog1.png" alt="Screenshot of an OPDS client displaying a navigation collection" title="Screenshot of an OPDS client displaying a navigation collection" />
+          <h2 class="featurette-heading">1. Navigation</h2>
+          <p class="lead">Navigation in an OPDS catalog is like the main menu of a website.</p>
+          <p class="lead">Following a hierarchical model, the content provider can organize its catalog around such collections: each item is a link that either points to another navigation collection, or to an acquisition collection.</p>
+          <p class="lead">While some relationship between collections can be clearly indicated (links to featured, recommended, new or popular collections), navigation collections are neutral most of the time.</p>
+          <p class="lead">It's easy to design a catalog suited for very specific curation goals since content providers are free to organize things however they want.</p>
+        </div>
+          
+        <div class="featurette append2">
+          <img class="featurette-image pull-left" src="img/catalog2.png" alt="Screenshot of an OPDS client displaying an acquisition collection" title="Screenshot of an OPDS client displaying an acquisition collection" />
+          <h2 class="featurette-heading">2. Acquisition</h2>
+          <p class="lead">Acquisition collections are meant to list metadata about content items and provide links to acquire them.</p>
+          <p class="lead">Each item in the collection provides core metadata such as: title, author, contributor, description, language, publication date, categories or rights.</p>
+          <p class="lead">In such collections, <strong>all content items</strong> must provide a link where they can be acquired.</p>
+          <p class="lead"><em>Acquisition</em> in OPDS, means that you can either buy, borrow, subscribe, sample or just plain download the content described in the collection.</p>
+        </div>
+        
+        <h2>Additional features</h2>
+        <hr />
+        <p class="lead append1">Aside from these two type of collections, OPDS catalogs are also structured around links, either at a collection or at an item level.</p>
+        
+        <div class="center append1">
+          <img src="img/catalog3.png" alt="Screenshot of an OPDS client displaying a book" title="Screenshot of an OPDS client displaying a book" />
+          <img src="img/catalog4.png" alt="Screenshot of an OPDS client displaying a book" title="Screenshot of an OPDS client displaying a book" />
+        </div>
+          
+        <p class="lead">Links in a content item can provide additional navigation to explore the catalog.</p>
+        <p class="lead append2">For example, if the content item is a book, links might provide an easy way to find books from the same author, in the same series or from the same publisher.</p>
+        
+        <div class="center append1">
+          <img src="img/catalog5.png" alt="Screenshot of an OPDS client faceted browsing" title="Screenshot of an OPDS client displaying faceted browsing" />
+        </div>
+        
+        <p class="lead">Links in a collection can provide either related collections or a way to filter an acquisition collection.</p>
+        <p class="lead">In this screenshot, you can see an example of both cases.</p>
+        <p class="lead">While the client is currently browsing a collection listing best selling books, related collections are also suggested: new releases and featured books.</p>
+        <p class="lead">To filter the content items currently listed, facets are also displayed: sub-genres, price and language. Using these facets, the client can access a different subset of items or reorder the current collection.</p>
+        
+      </div>
+
+      <hr />
+
+      <footer>
+        <p class="pull-right hidden-phone"><a href="#">Back to top</a></p>
+        <p>A project of the <a href="http://groups.google.com/group/openpub">OPDS Working Group</a> &amp; <a href="http://www.feedbooks.com/">Feedbooks</a>, &copy;&nbsp;<a href="http://www.lindsaygrime.co.uk/">Lindsay Grime</a> for the illustrations</p>
+      </footer>
+
+    </div>
+      
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

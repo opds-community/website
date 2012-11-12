@@ -4,6 +4,6 @@ The discover-opds.org project is meant to provide a one stop destination for dev
 
 ## Contributors
 
-Code and text by Hadrien Gardeur
+Code and text by Hadrien Gardeur.
 
-Illustrations by [Lindsay Grime](http://www.lindsaygrime.co.uk/)
+Illustrations by [Lindsay Grime](http://www.lindsaygrime.co.uk/).

@@ -51,7 +51,8 @@ footer {
     margin: 0 auto 20px;
   }
   
-  .center p {
+  .center p,
+  .center h2 {
     text-align: left;
   }
 }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OPDS Callback</title>
+    <meta name="description" content="A message shared between the content provider and an OPDS client." /> 
+    
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+    
+    <!-- Site CSS -->
+    <link href="css/opds.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      <!-- Navigation -->
+      
+      <div class="row-fluid hidden-phone">
+        <a href="index.html"><img src="img/logo.png" alt="Open Publication Distribution System" title="Open Publication Distribution System" /></a>
+        <ul class="nav nav-pills pull-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="presentation.html">Presentation</a></li>
+          <li class="active"><a href="learn.html">Learn</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Create <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://opds-spec.org/specs/opds-catalog-1-1-20110627/">Specification</a></li>
+              <li><a href="http://opds-validator.appspot.com/">Validate a catalog</a></li>
+              <li><a href="http://feedbooks.github.com/opds-test-catalog/">Test a client</a></li>
+              <li><a href="http://github.com/search?q=OPDS&amp;start_value=1&amp;type=Repositories">Search on GitHub</a></li>
+            </ul>
+          </li>
+          <li><a href="http://groups.google.com/group/openpub">Discussions</a></li>
+        </ul>
+      </div>
+      
+      <div class="row-fluid visible-phone center">
+        <a href="index.html"><img src="img/logo.png" alt="Open Publication Distribution System" title="Open Publication Distribution System" /></a>
+      </div>
+      
+      <hr class="hidden-phone" />
+      
+      <!-- Presentation -->
+      <div class="row-fluid append1">
+        <h1>Callback</h1>
+        <hr />
+        <p class="lead">A message shared between the content provider and an OPDS client. They're meant to do all the hard-work for you &ndash; download your content, provide extra metadata, add your shelf and provide a catalog &ndash; all with a single click.</p>
+        <p class="lead">Callbacks are an ideal way to link the physical world to the digital world.</p>
+      </div>
+
+      <!-- Main content -->
+      <div class="row-fluid append1">
+        
+        <div class="featurette append1">
+          <img class="featurette-image pull-right" src="img/illustration5.png" alt="Screenshot of an OPDS client displaying a navigation collection" title="Screenshot of an OPDS client displaying a navigation collection" />
+          <h2 class="featurette-heading">Shop</h2>
+          <p class="lead">Imagine walking into your favorite indie book retailer, but to buy digital content.</p>
+          <p class="lead">You can browse around the store or chat with a sales clerk to get recommendations.</p>
+        </div>
+        
+        <div class="mini-featurette append1">
+          <img class="mini-featurette-image pull-left" src="img/illustration6.png" alt="Screenshot of an OPDS client displaying an acquisition collection" title="Screenshot of an OPDS client displaying an acquisition collection" />
+          <h2 class="featurette-heading">Acquire</h2>
+          <p class="lead">Once your selection is done, you can pay with cash or any other payment method.</p>
+          <p class="lead">No need to set up any kind of account, just give your name and email and you instantly receive a link (to an OPDS callback).</p>
+          <p class="lead">When you open this link, your OPDS client receives metadata about your purchase and immediately downloads the content.</p>
+        </div>
+          
+        <div class="featurette append1">
+          <img class="featurette-image pull-right" src="img/illustration7.png" alt="Screenshot of an OPDS client displaying an acquisition collection" title="Screenshot of an OPDS client displaying an acquisition collection" />
+          <h2 class="featurette-heading">Shelf and Catalog</h2>
+          <p class="lead">Opening the link also sets up your bookshelf and the retailer's catalog for you.</p>
+          <p class="lead">All your future acquisitions (purchases from a retailer, books borrowed from a library) will be automatically downloaded on your device from now on.</p>
+          <p class="lead">You can also continue browsing for additional content to acquire since you can now access the full catalog, anywhere you want, right from your device.</p>
+        </div>
+        
+        
+      </div>
+
+      <hr />
+
+      <footer>
+        <p class="pull-right hidden-phone"><a href="#">Back to top</a></p>
+        <p>A project of the <a href="http://groups.google.com/group/openpub">OPDS Working Group</a> &amp; <a href="http://www.feedbooks.com/">Feedbooks</a>, &copy;&nbsp;<a href="http://www.lindsaygrime.co.uk/">Lindsay Grime</a> for the illustrations</p>
+      </footer>
+
+    </div>
+      
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

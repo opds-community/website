@@ -50,13 +50,16 @@ footer {
 
 @media (max-width: 979px) {
 
-  .featurette {
+  .featurette,
+  .mini-featurette {
     height: auto;
     padding: 0;
   }
       
   .featurette-image.pull-left,
-  .featurette-image.pull-right {
+  .featurette-image.pull-right,
+  .mini-featurette-image.pull-left,
+  .mini-featurette-image.pull-right {
     display: block;
     float: none;
     margin: 0 auto 20px;
